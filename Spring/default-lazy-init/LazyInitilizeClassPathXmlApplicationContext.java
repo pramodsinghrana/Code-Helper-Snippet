@@ -10,7 +10,7 @@ public class LazyInitilizeClassPathXmlApplicationContext extends ClassPathXmlApp
   protected void initBeanDefinitionReader(XmlBeanDefinitionReader reader) {
     // TODO Auto-generated method stub
     super.initBeanDefinitionReader(reader);
-    reader.setDocumentReaderClass(LazyBeanDefinitionDocumentReader.class);
+    reader.setDocumentReaderClass(LazyDefaultBeanDefinitionDocumentReader.class);
   }
 
 }
